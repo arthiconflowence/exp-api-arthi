@@ -1,0 +1,7 @@
+http:
+  port: "8081"
+
+processapi:
+  host: "processrental-ws-arthi.us-e2.cloudhub.io"
+  port: "8083"
+  path: "/api/rentals"
