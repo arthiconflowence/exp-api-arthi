@@ -3,5 +3,5 @@ http:
 
 processapi:
   host: "processrental-ws-arthi.us-e2.cloudhub.io"
-  port: "8083"
+  port: "80"
   path: "/api/rentals"
