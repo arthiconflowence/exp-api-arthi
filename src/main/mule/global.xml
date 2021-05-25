@@ -6,7 +6,7 @@
 	xsi:schemaLocation="
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="7f84445d-ed39-4e1c-bc5b-8a7ab3d6494a" >
-		<http:listener-connection host="0.0.0.0" port="${http.port}" />
+		<http:listener-connection host="${http.host}" port="${http.port}" />
 	</http:listener-config>
 	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="1394ed65-79a3-4bdb-9d15-0440233c54e2" >
 		<http:request-connection host="${processapi.host}" port="${processapi.port}" />
